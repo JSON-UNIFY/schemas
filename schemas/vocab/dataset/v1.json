@@ -1,6 +1,7 @@
 {
   "$id": "https://json-unify.github.io/schemas/vocab/dataset/v1.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$dynamicAnchor": "meta",
   "$vocabulary": {
     "https://json-schema.org/draft/2020-12/vocab/core": true
   },
