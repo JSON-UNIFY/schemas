@@ -3,9 +3,10 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$dynamicAnchor": "meta",
   "$vocabulary": {
-    "https://json-schema.org/draft/2020-12/vocab/core": true
+    "https://json-unify.github.io/vocab-dataset/v1": true
   },
   "title": "The dataset JSON Schema vocabulary",
+  "type": [ "object", "boolean" ],
   "properties": {
     "dataset": {
       "anyOf": [

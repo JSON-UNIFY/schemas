@@ -1,0 +1,23 @@
+{
+  "$id": "https://json-unify.github.io/schemas/vocab/extended-metadata/v1.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$dynamicAnchor": "meta",
+  "$vocabulary": {
+    "https://json-unify.github.io/vocab-extended-metadata/v1": true
+  },
+  "title": "An extension of the meta-data JSON Schema vocabulary",
+  "type": [ "object", "boolean" ],
+  "properties": {
+    "documentation": {
+      "type": "string",
+      "format": "uri"
+    },
+    "authors": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
