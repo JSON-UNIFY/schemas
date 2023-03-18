@@ -12,15 +12,10 @@
     "https://json-schema.org/draft/2020-12/vocab/content": true,
     "https://json-unify.github.io/vocab-dataset/v1": true
   },
-  "allOf": [ { "$ref": "https://json-schema.org/draft/2020-12/schema" } ],
+  "allOf": [ 
+    { "$ref": "https://json-schema.org/draft/2020-12/schema" },
+    { "$ref": "vocab/dataset/v1.json" } 
+  ],
   "type": "object",
-  "required": [ "dataset", "title" ],
-  "properties": {
-    "dataset": {
-      "anyOf": [
-        { "type": "array" },
-        { "type": "string", "format": "uri-reference" }
-      ]
-    }
-  }
+  "required": [ "dataset", "title" ]
 }

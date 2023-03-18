@@ -1,0 +1,16 @@
+{
+  "$id": "https://json-unify.github.io/schemas/vocab/dataset/v1.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$vocabulary": {
+    "https://json-schema.org/draft/2020-12/vocab/core": true
+  },
+  "title": "The dataset JSON Schema vocabulary",
+  "properties": {
+    "dataset": {
+      "anyOf": [
+        { "type": "array" },
+        { "type": "string", "format": "uri-reference" }
+      ]
+    }
+  }
+}
