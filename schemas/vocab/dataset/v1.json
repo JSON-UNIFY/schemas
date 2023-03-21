@@ -13,6 +13,10 @@
         { "type": "array" },
         { "type": "string", "format": "uri-reference" }
       ]
+    },
+    "datasetFilter": {
+      "$ref": "https://json-schema.org/draft/2020-12/schema",
+      "default": true
     }
   }
 }
