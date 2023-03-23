@@ -11,7 +11,17 @@
     "dataset": {
       "anyOf": [
         { "type": "array" },
-        { "type": "string", "format": "uri-reference" }
+        { "type": "string", "format": "uri-reference" },
+        {
+          "type": "object",
+          "required": [ "$eval" ],
+          "additionalProperties": false,
+          "properties": {
+            "$eval": {
+              "$ref": "https://schemas.sourcemeta.com/jsone/template/v1.json"
+            }
+          }
+        }
       ]
     },
     "datasetFilter": {
