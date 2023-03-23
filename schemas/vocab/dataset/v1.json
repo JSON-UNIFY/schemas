@@ -20,6 +20,10 @@
     },
     "datasetTransform": {
       "$ref": "https://schemas.sourcemeta.com/jsone/template/v1.json"
+    },
+    "datasetLimit": {
+      "type": "integer",
+      "exclusiveMinimum": 0
     }
   }
 }
