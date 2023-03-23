@@ -17,6 +17,9 @@
     "datasetFilter": {
       "$ref": "https://json-schema.org/draft/2020-12/schema",
       "default": true
+    },
+    "datasetTransform": {
+      "$ref": "https://schemas.sourcemeta.com/jsone/template/v1.json"
     }
   }
 }
