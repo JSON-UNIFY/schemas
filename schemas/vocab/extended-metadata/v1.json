@@ -18,6 +18,9 @@
       "items": {
         "type": "string"
       }
+    },
+    "license": {
+      "$ref": "https://schemas.sourcemeta.com/spdx/license/v1.json"
     }
   }
 }
